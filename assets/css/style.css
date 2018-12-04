@@ -9,10 +9,12 @@
     height: 75px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     z-index: 1;
-    margin: 0;
     background: #ffffff;
     border: solid #cccccc 2px;
     overflow: hidden;
+    margin: 0px;
+    position: static;
+    
 }
 
 header {
@@ -51,12 +53,22 @@ body {
     overflow: auto;
     margin-top: 20px;
     border: solid #cccccc 2px;
-
+    z-index: 1;
+    height: 645px;
 }
 
 h1 {
     margin-left: 20px;
     color: #4aaaa5;
+}
+
+#divider {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 2px;
+    background: #cccccc;
+    width: 900px;
+    margin-bottom: 10px;
 }
 
 main {
@@ -78,6 +90,28 @@ footer {
     width: 100%;
     position: fixed;
     text-align: center;
-    position: fixed;
     line-height: 24px;
+    bottom: 1px;
+    height: 33px;
+    right: 1px;
+    padding-top: 7px;
+    overflow: hidden;
+}
+
+.contact {
+    color: #666666;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#contactname {
+    background: #bebebe;
+}
+
+#contactemail {
+    background: #bebebe;    
+}
+
+#contactmesssage {
+    background: #bebebe;
+    height: 300px;
 }
